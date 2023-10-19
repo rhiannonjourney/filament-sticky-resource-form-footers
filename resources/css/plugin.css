@@ -1,0 +1,49 @@
+.fi-main {
+    .fi-resource-edit-record-page, .fi-resource-create-record-page {
+        .fi-form-actions {
+            position: sticky;
+            bottom: -1px;
+        }
+    }
+
+    &.sticky-resource-form-footer-pinned {
+        &.sticky-resource-form-footer-theme-default {
+            .fi-form-actions {
+                @apply py-4;
+
+                &:before {
+                    @apply backdrop-blur-md bg-white/95 dark:bg-gray-900/95 border-t border-gray-200 dark:border-gray-800 absolute block top-0 bottom-0;
+                    content: "";
+                    z-index: -1;
+                    left: -1000px;
+                    right: -1000px;
+                }
+            }
+        }
+
+        &.sticky-resource-form-footer-theme-floating {
+            .fi-form-actions {
+                @apply pt-4 pb-8 px-4 lg:px-0;
+
+                &:before {
+                    @apply backdrop-blur-md bg-white/80 border rounded-lg shadow-md border-gray-950/5 dark:bg-black/70 dark:border-white/20 absolute block top-0 bottom-4 left-0 right-0 lg:-mx-4;
+                    content: "";
+                    z-index: -1;
+                }
+            }
+        }
+
+        &.sticky-resource-form-footer-theme-floating-colored {
+            .fi-form-actions {
+                @apply pt-4 pb-8 px-4 lg:px-0;
+
+                &:before {
+                    @apply backdrop-blur-md bg-primary-500/20 border rounded-lg shadow-md border-primary-200/40 dark:border-primary-700/40 absolute block top-0 bottom-4 left-0 right-0 lg:-mx-4;
+                    content: "";
+                    z-index: -1;
+                }
+            }
+        }
+    }
+}
+
