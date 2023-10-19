@@ -79,5 +79,4 @@ class FilamentStickyResourceFormFootersPlugin implements Plugin
     public function register(Panel $panel): void
     {
     }
-
 }
