@@ -70,7 +70,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [Craig](https://github.com/craigkuhns)
+- [Rhiannon Journey](https://github.com/rhiannonjourney)
 - [All Contributors](../../contributors)
 
 ## License
