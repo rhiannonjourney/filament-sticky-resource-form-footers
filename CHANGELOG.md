@@ -2,6 +2,14 @@
 
 All notable changes to `filament-sticky-resource-form-footers` will be documented in this file.
 
+## v1.0.2 - 2024-04-02
+
+### What's Changed
+
+* Add Laravel 11 support by @rhiannonjourney
+
+**Full Changelog**: https://github.com/rhiannonjourney/filament-sticky-resource-form-footers/compare/v1.0.1...v1.0.2
+
 ## v1.0.1 - 2023-11-03
 
 ### What's Changed
